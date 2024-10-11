@@ -3,25 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile</title>
+    <title>Phone Book</title>
     <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    <script src="script.js"></script>
 </head>
 <body>
     <nav>   
         <a href="index.html"><b>Home</b></a>
         <a href="lab14.html">PhoneBook</a>
     </nav>
-    <div class = "content">
-      <div style="padding-left:16px">
-        <h2>Welcome to My Profile</h2>
-        <p>Hello!!!</p>
-        <img src="https://media.tenor.com/fVEr1gEUWtUAAAAM/hamster-meme.gif" alt="Chinchilla">\
-      </div>    
-      <button onclick="location.href='https://youtu.be/dQw4w9WgXcQ?si=QsyAzVBaxUTmgGym'" type="button">Don't Click Me</button>
-    </div>
     <footer>
         <a href="https://www.instagram.com/op.pcy/"><b><u>My IG</u></b></a>
         <p>Pitchayut Rattanamanee</p>
-    </footer>
+    </footer>   
+    <div class="profile" id="profile">
+        <div class="notify"><p>1</p></div>
+    </div>
+    <h1 id="user">??? Phone Book</h1>
+        <label>Set username</label><input type="text" id="name"><button onclick="setName()">set</button> 
+        <label>Set image</label><input type="text" id="input2"><button onclick="setImg()">set</button>
 </body>
 </html>
