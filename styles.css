@@ -1,23 +1,48 @@
-body{
-    margin: 0;
+body {
+    font-family: Arial, sans-serif;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f0f0f0;
+}   
+
+.container {
+    margin: 0 auto;
 }
+
 nav {
-    border: 1px;
-    background-color: green;
-    color: white;
-    padding: 6px;
-    text-align: left;
-    display: flex;  
-    gap: 20px;
+    background-color: darkolivegreen;
 }
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+  
+.menu {
+    display: flex;
+}
+  
+.menu li {
+    list-style: none;
+    margin-left: 20px
+}
+
+.nav-con a {
+    color: white;
+    text-decoration: none;
+}
+
 a {
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
-footer{
+
+footer {
     text-align: center;
     padding: 3px;
     background-color: DarkSalmon;
@@ -27,30 +52,8 @@ footer{
     width: 100%;
     height: auto;
 }
-img{
-    height: 500px;
-    width: 400px;
-}
-.profile{
+
+img {
+    height: 400px;
     width: 300px;
-    height: 300px;
-    background-image: url(https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png);
-    background-position: center;
-    background-size: cover;
-    border-radius: 50%;
-    position: relative;
-    text-align: center;
-    display: flex;  
-}
-.notify{
-    width: 40px;
-    height: 40px;
-    background-color: lightcoral;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    position: absolute;
-    bottom: 15px;
-    right: 20px;
 }
